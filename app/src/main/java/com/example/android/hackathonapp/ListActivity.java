@@ -19,7 +19,6 @@ public class ListActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
-        /*
         Bundle extras = getIntent().getExtras();
         items = extras.getStringArray("items");
         quantities = extras.getStringArray("quantities");
@@ -27,7 +26,6 @@ public class ListActivity extends ActionBarActivity {
         ListAdapter adapter = new ListAdapter(this, items, quantities);
         list = (ListView) findViewById(R.id.list);
         list.setAdapter(adapter);
-        */
     }
 
 
