@@ -17,17 +17,14 @@ public class ListAdapter extends ArrayAdapter<String> {
 
     public ListAdapter(Context context, String[] items, String[] quantities) {
         super(context, R.layout.list_item, items);
-        /*
         this.context = context;
         this.items = items;
         this.quantities = quantities;
-        */
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View rowView = convertView;
-        /*
         if (rowView == null) {
             LayoutInflater inflater = (LayoutInflater) context
                     .getSystemService (Context.LAYOUT_INFLATER_SERVICE);
@@ -38,7 +35,6 @@ public class ListAdapter extends ArrayAdapter<String> {
 
         item.setText(items[position]);
         quantity.setText(quantities[position]);
-        */
 
         return rowView;
     }
