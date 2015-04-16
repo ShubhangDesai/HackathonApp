@@ -14,17 +14,22 @@ import java.util.ArrayList;
 
 
 public class MainActivity extends ActionBarActivity {
+    /*
     ArrayList<String> items = new ArrayList<String>();
     ArrayList<String> quantities = new ArrayList<String>();
     Intent intent;
+    */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /*
         intent = new Intent(this, ListActivity.class);
+        */
 
+        /*
         Button button1 = (Button) findViewById(R.id.button1);
         button1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -42,7 +47,9 @@ public class MainActivity extends ActionBarActivity {
                 toast.show();
             }
         });
+        */
 
+        /*
         Button button2 = (Button) findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -61,6 +68,7 @@ public class MainActivity extends ActionBarActivity {
                 startActivity(intent);
             }
         });
+        */
     }
 
 
